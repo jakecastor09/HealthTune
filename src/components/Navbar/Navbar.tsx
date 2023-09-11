@@ -1,11 +1,12 @@
 import NavbarMenu from './NavbarMenu';
-import NavbarContainer from './NavbarContainer';
+
 import NavbarButton from './NavbarButton';
 import NavbarItems from './NavbarItems';
+import Container from '../Container/Container';
 
 const Navbar = () => {
   return (
-    <NavbarContainer>
+    <Container>
       <div className='flex justify-between items-center'>
         <h3 className='font-bold text-darkViolet-1000'>HealthTune</h3>
         <div className='flex items-center space-x-4 xl:hidden'>
@@ -17,7 +18,7 @@ const Navbar = () => {
         <NavbarItems />
         <NavbarButton />
       </div>
-    </NavbarContainer>
+    </Container>
   );
 };
 
