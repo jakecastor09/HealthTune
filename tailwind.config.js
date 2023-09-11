@@ -2,12 +2,12 @@
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    screens: {
-      sm: '480px',
-      md: '768px',
-      lg: '1020px',
-      xl: '1440px',
-    },
+    // screens: {
+    //   sm: '480px',
+    //   md: '668px',
+    //   lg: '1020px',
+    //   xl: '1440px',
+    // },
     extend: {
       colors: {
         darkYellow: '#ffb309',
@@ -29,6 +29,9 @@ export default {
           200: '#998DA1',
           100: '#C3B8CC',
         },
+      },
+      fontSize: {
+        40: '40px',
       },
     },
     fontFamily: {
