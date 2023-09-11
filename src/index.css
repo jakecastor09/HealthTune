@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.navLink {
+  @apply text-darkViolet-400 cursor-pointer group-hover:text-darkViolet-1000 transition duration-300;
+}
+
+.navBorderBottom {
+  @apply absolute -bottom-5 right-1 left-1 group-hover:border-darkViolet-1000 group-hover:border-b-4 transition duration-300 group-hover:rounded-lg;
+}
