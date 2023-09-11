@@ -15,6 +15,7 @@ export default {
         lightGreen: '#2DAA66',
         lightCyan: '#41FFDD',
         lightOrange: '#FC9C56',
+        whiteFloral: '#FFF9EB',
 
         darkViolet: {
           1000: '#240046',
