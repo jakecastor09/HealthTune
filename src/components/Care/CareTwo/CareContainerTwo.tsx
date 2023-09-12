@@ -5,7 +5,7 @@ interface Props {
 }
 const CareContainerTwo = ({ children }: Props) => {
   return (
-    <div className='flex mt-8 pb-12 flex-col items-center md:space-x-2 md:flex-row'>
+    <div className='flex pb-12 flex-col items-center md:space-x-2 md:flex-row'>
       {children}
     </div>
   );
