@@ -2,6 +2,7 @@ import Container from '../Container/Container';
 import { MdArrowForwardIos } from 'react-icons/md';
 import { AiOutlinePlayCircle, AiFillStar } from 'react-icons/ai';
 import HeroImageReview from './HeroImageReview';
+import mobileScreen from '../../assets/images/mobile-screen-xl.png';
 const HeroSection = () => {
   return (
     <Container styles='bg-whiteFloral'>
@@ -50,7 +51,7 @@ const HeroSection = () => {
         </div>
         {/* //? Preview App */}
         <div className='mt-12 max-w-sm mx-auto md:max-w-md lg:max-w-xl'>
-          <img src='../images/mobile-screen-xl.png' alt='' />
+          <img src={mobileScreen} alt='' />
         </div>
       </div>
     </Container>

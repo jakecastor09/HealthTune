@@ -2,12 +2,12 @@
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    // screens: {
-    //   sm: '480px',
-    //   md: '668px',
-    //   lg: '1020px',
-    //   xl: '1440px',
-    // },
+    screens: {
+      sm: '480px',
+      md: '668px',
+      lg: '1020px',
+      xl: '1440px',
+    },
     extend: {
       colors: {
         darkYellow: '#ffb309',
@@ -16,6 +16,7 @@ export default {
         lightCyan: '#41FFDD',
         lightOrange: '#FC9C56',
         whiteFloral: '#FFF9EB',
+        whiteMagnolia: '#FAF7FC',
 
         darkViolet: {
           1000: '#240046',
