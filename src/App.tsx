@@ -3,6 +3,7 @@ import HeroSection from './components/HeroSection/HeroSection';
 import Navbar from './components/Navbar/Navbar';
 import Consult from './components/Consult/Consult';
 import Features from './components/Features/Features';
+import Care from './components/Care/Care';
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <ClientsSatisfaction />
       <Consult />
       <Features />
+      <Care />
     </>
   );
 };
