@@ -3,7 +3,7 @@ import { ReactNode } from 'react';
 interface Props {
   children: ReactNode;
 }
-const CareContainer = ({ children }: Props) => {
+const CareContainerOne = ({ children }: Props) => {
   return (
     <div className='flex pb-12 flex-col items-center md:space-x-2 md:flex-row-reverse'>
       {children}
@@ -11,4 +11,4 @@ const CareContainer = ({ children }: Props) => {
   );
 };
 
-export default CareContainer;
+export default CareContainerOne;

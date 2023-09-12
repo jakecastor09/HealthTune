@@ -1,15 +1,12 @@
 import Container from '../Container/Container';
-import CareContainer from './CareContainer';
-import CareContent from './CareContent';
-import CareHeader from './CareHeader';
+import CareOne from './CareOne/CareOne';
+import CareTwo from './CareTwo/CareTwo';
 
 const Care = () => {
   return (
     <Container>
-      <CareContainer>
-        <CareContent />
-        <CareHeader />
-      </CareContainer>
+      <CareOne />
+      <CareTwo />
     </Container>
   );
 };
