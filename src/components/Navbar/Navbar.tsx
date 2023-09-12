@@ -6,7 +6,7 @@ import Container from '../Container/Container';
 
 const Navbar = () => {
   return (
-    <Container styles='bg-white'>
+    <Container styles='bg-white pb-1'>
       <div className='flex justify-between items-center pb-4 xl:py-0'>
         <h3 className='font-bold text-darkViolet-1000'>HealthTune</h3>
         <div className='flex items-center space-x-4 xl:hidden'>

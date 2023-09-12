@@ -11,7 +11,7 @@ import pharmacy from '../../assets/images/pharmacy.svg';
 
 const Consult = () => {
   return (
-    <Container styles='bg-whiteMagnolia pb-8 xl:py-8 xl:pb-12'>
+    <Container styles='bg-whiteMagnolia pb-12 xl:py-8 xl:pb-12'>
       <ConsultHeader />
       <ConsultItemsContainer>
         <ConsultItem imgSrc={dentist} name='Dentist' />

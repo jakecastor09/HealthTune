@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  p {
+    @apply text-darkViolet-300 md:leading-relaxed xl:leading-relaxed;
+  }
+}
+
 .navLink {
   @apply text-darkViolet-400 cursor-pointer group-hover:text-darkViolet-1000 transition duration-300;
 }

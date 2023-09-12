@@ -13,7 +13,7 @@ const HeroSection = () => {
         <h1 className='mt-4 font-extrabold leading-snug text-4xl text-darkViolet-1000 max-w-sm mx-auto md:max-w-lg md:text-40 xl:text-6xl xl:max-w-3xl xl:leading-snug'>
           Access expert medical advice through our app
         </h1>
-        <p className='text-darkViolet-300 mt-4 max-w-xs mx-auto md:leading-relaxed md:max-w-sm xl:text-xl xl:max-w-lg xl:leading-relaxed'>
+        <p className='mt-4 max-w-xs mx-auto  md:max-w-sm xl:text-xl xl:max-w-lg'>
           Experience healthcare convenience with our app. Connect to skilled
           medical professionals for expert support anytime you need it.
         </p>
@@ -42,9 +42,7 @@ const HeroSection = () => {
               </span>
               4.9 (5k+ reviews)
             </h3>
-            <p className='text-darkViolet-300 md:text-sm xl:text-md'>
-              Our Most Happy customers
-            </p>
+            <p className='md:text-sm xl:text-md'>Our Most Happy customers</p>
           </div>
         </div>
         <div className='mt-12 max-w-sm mx-auto md:max-w-md lg:max-w-xl'>
