@@ -17,7 +17,6 @@ const HeroSection = () => {
           Experience healthcare convenience with our app. Connect to skilled
           medical professionals for expert support anytime you need it.
         </p>
-        {/* //? Button */}
         <div className='flex flex-col items-center max-w-sm mx-auto space-x-4 mt-5 md:flex-row'>
           <button className='bg-darkViolet-1000 text-white rounded-full flex items-center  px-12 py-5 font-bold hover:opacity-70'>
             Download Now
@@ -30,7 +29,6 @@ const HeroSection = () => {
             <h3 className='text-darkViolet-1000 font-bold'>Watch Demo</h3>
           </div>
         </div>
-        {/* //? Review */}
         <div className='max-w-xs flex flex-col items-center justify-center mt-10 mx-auto md:flex-row md:max-w-md md:space-x-1'>
           <div className='flex justify-center w-20px'>
             <HeroImageReview img={1} styles={'translate-x-4'} />
@@ -49,7 +47,6 @@ const HeroSection = () => {
             </p>
           </div>
         </div>
-        {/* //? Preview App */}
         <div className='mt-12 max-w-sm mx-auto md:max-w-md lg:max-w-xl'>
           <img src={mobileScreen} alt='' />
         </div>
