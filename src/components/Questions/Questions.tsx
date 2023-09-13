@@ -5,8 +5,10 @@ import QuestionsTitle from './QuestionsTitle';
 const Questions = () => {
   return (
     <Container styles='bg-whiteMagnolia pt-6 pb-12'>
-      <QuestionsTitle />
-      <QuestionsFrame />
+      <div className='xl:mx-auto xl:max-w-5xl'>
+        <QuestionsTitle />
+        <QuestionsFrame />
+      </div>
     </Container>
   );
 };
