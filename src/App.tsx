@@ -6,6 +6,7 @@ import Features from './components/Features/Features';
 import Care from './components/Care/Care';
 import Questions from './components/Questions/Questions';
 import DownloadApp from './components/DownloadApp/DownloadApp';
+import Footer from './components/Footer/Footer';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
       <Care />
       <Questions />
       <DownloadApp />
+      <Footer />
     </>
   );
 };
