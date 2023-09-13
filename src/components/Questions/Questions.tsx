@@ -4,12 +4,14 @@ import QuestionsTitle from './QuestionsTitle';
 
 const Questions = () => {
   return (
-    <Container styles='bg-whiteMagnolia pt-6 pb-12'>
-      <div className='xl:mx-auto xl:max-w-5xl'>
-        <QuestionsTitle />
-        <QuestionsFrame />
-      </div>
-    </Container>
+    <div id='faq'>
+      <Container styles='bg-whiteMagnolia pt-6 pb-12'>
+        <div className='xl:mx-auto xl:max-w-5xl'>
+          <QuestionsTitle />
+          <QuestionsFrame />
+        </div>
+      </Container>
+    </div>
   );
 };
 

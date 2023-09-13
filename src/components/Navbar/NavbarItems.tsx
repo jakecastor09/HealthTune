@@ -5,9 +5,9 @@ const NavbarItems = () => {
     <div className='hidden items-center space-x-16 xl:flex'>
       <NavbarItem name='Home' />
       <NavbarItem name='Our Service' />
-      <NavbarItem name='How it works' />
-      <NavbarItem name='Our Doctors' />
-      <NavbarItem name='Pricing Plan' />
+      <NavbarItem name='Features' />
+      <NavbarItem name='FAQ' />
+      <NavbarItem name='Download App' />
     </div>
   );
 };
