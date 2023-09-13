@@ -5,6 +5,7 @@ import Consult from './components/Consult/Consult';
 import Features from './components/Features/Features';
 import Care from './components/Care/Care';
 import Questions from './components/Questions/Questions';
+import DownloadApp from './components/DownloadApp/DownloadApp';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Features />
       <Care />
       <Questions />
+      <DownloadApp />
     </>
   );
 };
