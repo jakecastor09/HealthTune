@@ -7,7 +7,7 @@ const CareOne = () => {
   return (
     <CareContainerOne>
       <CareContent
-        boxContainerStyles='rounded-xl top-8 absolute bg-white shadow-md p-4 text-sm space-y-2 lg:p-8 md:top-4 md:-left-6 xl:top-20 xl:left-12'
+        boxContainerStyles='rounded-xl top-6 absolute bg-white shadow-md p-4 text-sm space-y-2 lg:p-8 md:top-0 md:-left-6 xl:top-20 xl:left-12'
         styles='flex justify-end'
         careContentData={careContentData}
       />
