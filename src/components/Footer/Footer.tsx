@@ -19,7 +19,7 @@ const Footer = () => {
           <FooterCopyright />
         </FonterContainer>
       </div>
-      <div className='sm:hidden md:block'>
+      <div className='hidden  md:block'>
         <FonterContainer>
           <FooterCall />
           <FooterSupport />
