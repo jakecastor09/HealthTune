@@ -3,9 +3,9 @@ import care3 from '../../../assets/images/care-img-3.webp';
 
 export const careContentData: CareContentData = {
   img: care3,
-  item1: 'Online 24/7 services',
-  item2: 'Emergency Medicine',
-  item3: 'Ambulance Service',
+  item1: '24/7 Monitoring',
+  item2: 'Privacy Controls',
+  item3: 'Secured',
 };
 export const careHeaderData: CareHeaderData = {
   title: 'Safe and Secure',
